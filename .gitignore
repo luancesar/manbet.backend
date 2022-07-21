@@ -395,7 +395,7 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
-appsettings.Development.json
+Manbet.API/appsettings.Development.json
 
 # JetBrains Rider
 *.sln.iml
