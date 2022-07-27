@@ -14,6 +14,7 @@
 	</ItemGroup>
 	
   <ItemGroup>
+    <ProjectReference Include="..\Manbet.Application\Manbet.Application.csproj" />
     <ProjectReference Include="..\Manbet.Infrastructure\Manbet.Infrastructure.csproj" />
   </ItemGroup>
 

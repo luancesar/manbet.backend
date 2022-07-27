@@ -13,9 +13,6 @@ namespace Manbet.Infrastructure.Persistence
         public DbSet<CasaAposta> CasasAposta { get; set; }
         public DbSet<Saque> Saques{ get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-        }
 
     }
 }

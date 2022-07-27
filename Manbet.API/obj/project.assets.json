@@ -245,6 +245,19 @@
           "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
         }
       },
+      "Manbet.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Manbet.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Manbet.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Manbet.Application.dll": {}
+        }
+      },
       "Manbet.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -808,6 +821,11 @@
         "version.txt"
       ]
     },
+    "Manbet.Application/1.0.0": {
+      "type": "project",
+      "path": "../Manbet.Application/Manbet.Application.csproj",
+      "msbuildProject": "../Manbet.Application/Manbet.Application.csproj"
+    },
     "Manbet.Core/1.0.0": {
       "type": "project",
       "path": "../Manbet.Core/Manbet.Core.csproj",
@@ -821,6 +839,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Manbet.Application >= 1.0.0",
       "Manbet.Infrastructure >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.17",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.17",
@@ -859,6 +878,9 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "C:\\Projetos\\manbet\\manbet.backend\\Manbet.Application\\Manbet.Application.csproj": {
+              "projectPath": "C:\\Projetos\\manbet\\manbet.backend\\Manbet.Application\\Manbet.Application.csproj"
+            },
             "C:\\Projetos\\manbet\\manbet.backend\\Manbet.Infrastructure\\Manbet.Infrastructure.csproj": {
               "projectPath": "C:\\Projetos\\manbet\\manbet.backend\\Manbet.Infrastructure\\Manbet.Infrastructure.csproj"
             }
