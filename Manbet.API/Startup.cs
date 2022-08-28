@@ -28,6 +28,11 @@ namespace Manbet.API
             services.AddTransient<ICasaApostaRepository, CasaApostaRepository>();
             services.AddScoped<ICasaApostaService, CasaApostaService>();
             //services.AddScoped<ICasaApostaService, CasaApostaService>();
+            
+            services.AddControllers();
+            services.
+            AddTransient<ISaqueRepository, SaqueRepository>();
+            services.AddScoped<ISaqueService, SaqueService>();
 
             var connectionString = Configuration.GetConnectionString("DefaultConnection");
             services.AddDbContext<ManbetDBContext>(options => options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));

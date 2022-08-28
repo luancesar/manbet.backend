@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ybrJe4W0BapVeU+iGMxRyrbr+dGGrX4spEWnkYEJkLtVrYaEA+k3qPropN97LKDUr8fPMpY5vYsfGGFOzPlRhQ==",
+  "dgSpecHash": "29mxT9ytKefAGDxCd/0hzMSRPYYWWNYS7iTFU5xlZTv0GXyz5oy6ucVmSTHE8oDBopeWT8UX6ISFgyKusfCt8A==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\manbet\\manbet.backend\\Manbet.Application\\Manbet.Application.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\projetos\\Manbet\\manbet.backend\\Manbet.Application\\Manbet.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vitor\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\vitor\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\vitor\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
   "logs": []
 }
